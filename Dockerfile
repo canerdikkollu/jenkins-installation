@@ -11,3 +11,7 @@ ENV JAVA_OPTS -Djenkins.install.runSetupWizard=false
 # copy configuration yaml
 COPY jenkins-casc.yaml /usr/local/jenkins-casc.yaml
 ENV CASC_JENKINS_CONFIG /usr/local/jenkins-casc.yaml
+
+# install docker
+RUN apt-get update && \
+    apt install docker.io -y

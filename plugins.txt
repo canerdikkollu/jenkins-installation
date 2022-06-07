@@ -16,6 +16,7 @@ gitlab-merge-request-jenkins:latest
 gitlab-oauth:latest
 gitlab-plugin:latest
 sshd:latest
+docker-plugin:latest
 git-server:latest
 build-timeout:latest
 workflow-multibranch:latest
